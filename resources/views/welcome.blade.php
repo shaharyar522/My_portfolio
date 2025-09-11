@@ -7,7 +7,10 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <!-- Favicons -->
- 
+    {{-- uy title image show --}}
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -1552,7 +1555,7 @@
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a> 
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
