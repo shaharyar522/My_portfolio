@@ -116,7 +116,7 @@
     </div><!-- End Page Title -->
 
     <!-- Portfolio Details Section -->
-    <section id="elearning" class="portfolio-details section">
+    <section id="elearning" class="project-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -312,7 +312,7 @@
 
     </section><!-- /Portfolio Details Section -->
 
-    <section id="urban" class="portfolio-details section" style="display:none;">
+    <section id="urban" class="project-details section" style="display:none;">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -772,6 +772,32 @@
       }
     });
   </script>
+
+{{-- uay maray pass proeject deaitla ian  --}}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Laravel se slug
+    let slug = @json($slug);
+
+    // sab hide karo
+    document.querySelectorAll(".project-details.section").forEach(sec => {
+      sec.style.display = "none";
+    });
+
+    if (slug) {
+      let target = document.getElementById(slug);
+      if (target) {
+        target.style.display = "block";
+      }
+    } else {
+      // default (pehla section)
+      let first = document.querySelector(".project-details.section");
+      if (first) first.style.display = "block";
+    }
+  });
+</script>
+
 
 
 </body>

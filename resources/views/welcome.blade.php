@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -7,7 +8,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <!-- Favicons -->
-    {{-- uy title image show --}}
+  {{-- uy title image show --}}
   <link href="assets/img/favicon.png" rel="icon">
 
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -754,7 +755,7 @@
     </section><!-- /Services Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="portfolio" class="project-details section">
 
       <!-- Section Title -->
       <div class="container section-title">
@@ -800,7 +801,10 @@
                           data-glightbox="title: Mobile Banking App; description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.">
                           <i class="bi bi-arrows-angle-expand"></i>
                         </a>
-                        <a href="portfolio-details.html#elearning">
+                        {{-- <a href="portfolio-details.html#elearning">
+                          <i class="bi bi-arrow-right"></i>
+                        </a> --}}
+                        <a href="{{ route('project-details', ['slug' => 'elearning']) }}">
                           <i class="bi bi-arrow-right"></i>
                         </a>
                       </div>
@@ -824,7 +828,7 @@
                           data-glightbox="title: E-Learning Platform; description: Nulla vitae elit libero, a pharetra augue mollis interdum.">
                           <i class="bi bi-arrows-angle-expand"></i>
                         </a>
-                        <a href="portfolio-details.html#urban">
+                        <a href="{{ route('project-details', ['slug' => 'urban']) }}">
                           <i class="bi bi-arrow-right"></i>
                         </a>
                       </div>
