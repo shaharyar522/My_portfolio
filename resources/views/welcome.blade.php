@@ -689,9 +689,10 @@
         <li data-filter="*" class="filter-active">
           <i class="bi bi-grid-3x3"></i> All Projects
         </li>
-      <li data-filter=".filter-frontend">Frontend & UI/UX</li> <!-- Frontend templates -->
-        <li data-filter=".filter-business-software">Business Software</li> <!-- Real-world software: Billing, POS, Inventory -->
-        <li data-filter=".filter-php&laravel">PHP & Laravel Projects</li> <!-- PHP + Laravel backend apps -->
+        <li data-filter=".filter-frontend">Frontend & UI/UX</li> <!-- Frontend templates -->
+        <li data-filter=".filter-business-software">Business Software</li>
+        <!-- Real-world software: Billing, POS, Inventory -->
+        <li data-filter=".filter-phplaravel">PHP & Laravel Projects</li> <!-- PHP + Laravel backend apps -->
         {{-- <li data-filter=".filter-fullstack">Full-Stack Apps</li> --}}
       </ul>
 
@@ -711,7 +712,7 @@
                       data-glightbox="title: Mobile Banking App; description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.">
                       <i class="bi bi-arrows-angle-expand"></i>
                     </a>
-                    <a href="portfolio-details.html#elearning">
+                    <a href="{{ url('project-details') }}#elearning">
                       <i class="bi bi-arrow-right"></i>
                     </a>
                   </div>
@@ -719,7 +720,7 @@
               </div>
             </figure>
           </article>
-        </div><!-- End Portfolio Item -->
+        </div> <!-- End Portfolio Item -->
 
         <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-business-software">
           <article class="portfolio-entry">
@@ -735,7 +736,7 @@
                       data-glightbox="title: E-Learning Platform; description: Nulla vitae elit libero, a pharetra augue mollis interdum.">
                       <i class="bi bi-arrows-angle-expand"></i>
                     </a>
-                    <a href="portfolio-details.html#urban">
+                    <a href="{{ url('project-details') }}#urban">
                       <i class="bi bi-arrow-right"></i>
                     </a>
                   </div>
@@ -743,9 +744,9 @@
               </div>
             </figure>
           </article>
-        </div><!-- End Portfolio Item -->
+        </div> <!-- End Portfolio Item -->
 
-        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-php&laravel">
+        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-phplaravel">
           <article class="portfolio-entry">
             <figure class="entry-image">
               <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="" loading="lazy">
@@ -759,7 +760,7 @@
                       data-glightbox="title: Urban Architecture; description: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
                       <i class="bi bi-arrows-angle-expand"></i>
                     </a>
-                    <a href="portfolio-details.html#Urban_Architecture">
+                     <a href="{{ url('project-details') }}#Urban_Architecture">
                       <i class="bi bi-arrow-right"></i>
                     </a>
                   </div>
@@ -769,31 +770,8 @@
           </article>
         </div><!-- End Portfolio Item -->
 
-        <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-php&laravel">
-          <article class="portfolio-entry">
-            <figure class="entry-image">
-              <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="" loading="lazy">
-              <div class="entry-overlay">
-                <div class="overlay-content">
-                  <div class="entry-meta">Photography</div>
-                  <h3 class="entry-title">Urban Architecture</h3>
-                  <div class="entry-links">
-                    <a href="assets/img/portfolio/portfolio-7.webp" class="glightbox"
-                      data-gallery="portfolio-gallery-photography"
-                      data-glightbox="title: Urban Architecture; description: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
-                      <i class="bi bi-arrows-angle-expand"></i>
-                    </a>
-                    <a href="portfolio-details.html#Urban_Architecture">
-                      <i class="bi bi-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </figure>
-          </article>
-        </div><!-- End Portfolio Item -->
 
-       
+
 
       </div><!-- End Portfolio Container -->
 
@@ -1201,12 +1179,13 @@
           </form>
 
         </div>
+
       </div>
 
     </div>
 
   </div>
 
-</section><!-- /Contact Section -->
+</section> <!-- /Contact Section -->
 
 @endsection

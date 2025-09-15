@@ -1,8 +1,107 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="en">
 
-@section('title', 'Portfolio Details - Shahar Yar')
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - Style Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- Favicons -->
+<link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
+<link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
-@section('content')
+  <!-- Vendor CSS Files -->
+  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+
+  <!-- Main CSS File -->
+<link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Style
+  * Template URL: https://bootstrapmade.com/style-bootstrap-portfolio-template/
+  * Updated: Jul 02 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <!-- Uncomment the line below if you also wish to use an text logo -->
+        <!-- <h1 class="sitename">Style</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+
+        <div class="profile-img">
+          <img src="assets/img/profile/profile-square-1.webp" alt="" class="img-fluid rounded-circle">
+        </div>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">Alex Smith</h1>
+        </a>
+
+        <div class="social-links text-center">
+          <a href="#" class="github"><i class="bi bi-github"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        </div>
+
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <!-- <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul> -->
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
 
     <!-- Page Title -->
     <div class="page-title light-background">
@@ -10,7 +109,7 @@
         <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="{{ url('/') }}">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li class="current">Portfolio Details</li>
           </ol>
         </nav>
@@ -18,8 +117,7 @@
     </div><!-- End Page Title -->
 
     <!-- Portfolio Details Section -->
-    
-    <section id="elearning" class="project-details section">
+    <section id="elearning" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -54,15 +152,13 @@
                   </script>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                     <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" alt="Portfolio Image" class="img-fluid">
-
+                      <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" alt="Portfolio Image" class="img-fluid">
-
+                      <img src="assets/img/portfolio/portfolio-7.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="{{ asset('assets/img/portfolio/portfolio-8.webp') }}" alt="Portfolio Image" class="img-fluid">
+                      <img src="assets/img/portfolio/portfolio-8.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                   </div>
                   <div class="swiper-button-prev"></div>
@@ -73,16 +169,16 @@
               <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
                 <div class="row g-2 mt-3">
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-4.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-4.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-6.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-6.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-11.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-11.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-12.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-12.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                 </div>
               </div>
@@ -217,7 +313,7 @@
 
     </section><!-- /Portfolio Details Section -->
 
-    <section id="urban" class="project-details section" style="display:none;">
+    <section id="urban" class="portfolio-details section" style="display:none;">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -252,14 +348,13 @@
                   </script>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" alt="Portfolio Image" class="img-fluid">
+                      <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                     <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" alt="Portfolio Image" class="img-fluid">
-
+                      <img src="assets/img/portfolio/portfolio-7.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="{{ asset('assets/img/portfolio/portfolio-8.webp') }}" alt="Portfolio Image" class="img-fluid">
+                      <img src="assets/img/portfolio/portfolio-8.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                   </div>
                   <div class="swiper-button-prev"></div>
@@ -270,16 +365,16 @@
               <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
                 <div class="row g-2 mt-3">
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-4.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-4.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-6.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-6.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-11.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-11.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-12.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-12.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                 </div>
               </div>
@@ -450,15 +545,13 @@
                   </script>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                     <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" alt="Portfolio Image" class="img-fluid">
-
+                      <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                     <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" alt="Portfolio Image" class="img-fluid">
-
+                      <img src="assets/img/portfolio/portfolio-7.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="{{ asset('assets/img/portfolio/portfolio-8.webp') }}" alt="Portfolio Image" class="img-fluid">
+                      <img src="assets/img/portfolio/portfolio-8.webp" alt="Portfolio Image" class="img-fluid">
                     </div>
                   </div>
                   <div class="swiper-button-prev"></div>
@@ -469,16 +562,16 @@
               <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
                 <div class="row g-2 mt-3">
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-4.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-4.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-6.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-6.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-11.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-11.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="{{ asset('assets/img/portfolio/portfolio-12.webp') }}" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="assets/img/portfolio/portfolio-12.webp" alt="Gallery Image" class="img-fluid glightbox">
                   </div>
                 </div>
               </div>
@@ -613,33 +706,106 @@
 
     </section><!-- /Portfolio Details Section -->
 
-@endsection
+  </main>
 
-@push('scripts')
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Style</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#" class="github"><i class="bi bi-github"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+ <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
+<script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
+<script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+<script src="{{ asset('assets/vendor/typed.js/typed.umd.js') }}"></script>
+<script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
+<script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+
+
+
+  <!-- Main JS File -->
+<script src="{{ asset('assets/js/main.js') }}"></script>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let hash = window.location.hash;
+
+      // sab hide karo
+      document.querySelectorAll(".portfolio-details.section").forEach(sec => {
+        sec.style.display = "none";
+      });
+
+      if (hash) {
+        let target = document.querySelector(hash);
+        if (target) {
+          target.style.display = "block"; // sirf required section show
+        }
+      } else {
+        // agar koi hash nahi hai to ek default section dikhao
+        let first = document.querySelector(".portfolio-details.section");
+        if (first) first.style.display = "block";
+      }
+    });
+  </script>
+
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
- 
-    let slug = @json($slug);
+document.addEventListener("DOMContentLoaded", function () {
+  let hash = window.location.hash;
 
-    // sab hide karo
-    document.querySelectorAll(".project-details.section").forEach(sec => {
-      sec.style.display = "none";
-    });
-
-    if(slug) {
-      let target = document.getElementById(slug);
-      if (target) {
-        target.style.display = "block";
-      }
-    } else {
-      // default (pehla section)
-      let first = document.querySelector(".project-details.section");
-      if (first) first.style.display = "block";
-      i
-    }
+  // Sab portfolio detail sections hide karo
+  document.querySelectorAll(".portfolio-details.section").forEach(sec => {
+    sec.style.display = "none";
   });
+
+  if (hash) {
+    // Hash ke mutabiq sirf target show karo
+    let target = document.querySelector(hash);
+    if (target) {
+      target.style.display = "block";
+      // Scroll to target (optional)
+      target.scrollIntoView({behavior: "smooth"});
+    }
+  } else {
+    // Agar koi hash nahi hai to default section show karo
+    let first = document.querySelector(".portfolio-details.section");
+    if (first) first.style.display = "block";
+  }
+});
 </script>
 
 
-@endpush
+
+
+
+</body>
+
+</html>
