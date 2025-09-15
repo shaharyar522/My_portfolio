@@ -14,10 +14,17 @@
           </h2>
           <h1 class="hero-title">Creative <span class="typed"
               data-typed-items="HTML, CSS, JavaScript, Bootstrap, AJAX,PHP, Laravel,REST APIs,MySQL"></span></h1>
-          <p class="lead">I create digital experiences that inspire and engage. With a passion for clean design and
-            innovative solutions, I transform ideas into beautiful, functional realities.</p>
+          <p class="lead" style="text-align: justify; text-justify: inter-word; line-height: 1.7; max-width: 800px; margin: 0 auto;">
+  I am Shaharyar, a backend developer passionate about building efficient, scalable, and high-performance web applications.  
+  I specialize in designing robust server-side solutions and APIs, creating clean, maintainable code that powers innovative software.  
+  Committed to problem-solving and continuous learning, I deliver solutions that help businesses achieve their goals and bring ideas to life.
+</p>
 
-          <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
+          </p>
+          {{-- uay maray pass es main total-project complete: or us k shat years of experience hain. or happy client
+          hain. --}}
+
+          {{-- <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
             <div class="stat-item">
               <span class="purecounter" data-purecounter-start="0" data-purecounter-end="150"
                 data-purecounter-duration="2">0</span>
@@ -33,11 +40,11 @@
                 data-purecounter-duration="2">0</span>
               <span class="stat-label">Happy Clients</span>
             </div>
-          </div>
+          </div> --}}
 
           <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
-            <a href="#portfolio" class="btn btn-primary">View My Work</a>
-            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            <a href="#projects" id="view-projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" id="get-contact-touch" class="btn btn-outline">Get In Touch</a>
           </div>
 
           <div class="social-links" data-aos="fade-up" data-aos-delay="400">
@@ -156,7 +163,7 @@
               <span class="text">Coffee-fueled designer based in Portland</span>
             </div>
             <div class="action-buttons">
-              <a href="#portfolio" class="btn btn-primary">View My Work</a>
+              <a href="#projects" id="view-projects" class="btn btn-primary">View My Work</a>
               <a href="#" class="btn btn-outline">Download Resume</a>
             </div>
           </div>
@@ -670,8 +677,8 @@
 
 </section><!-- /Services Section -->
 
-<!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section">
+<!-- projects Section -->
+<section id="projects" class="portfolio section">
 
   <!-- Section Title -->
   <div class="container section-title">
@@ -760,7 +767,7 @@
                       data-glightbox="title: Urban Architecture; description: Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
                       <i class="bi bi-arrows-angle-expand"></i>
                     </a>
-                     <a href="{{ url('project-details') }}#Urban_Architecture">
+                    <a href="{{ url('project-details') }}#Urban_Architecture">
                       <i class="bi bi-arrow-right"></i>
                     </a>
                   </div>
