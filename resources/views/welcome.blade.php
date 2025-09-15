@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
 <!-- Hero Section -->
 <section id="hero" class="hero section">
 
@@ -10,15 +9,41 @@
 
       <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-delay="100">
         <div class="content-wrapper">
-          <h2>Hi,I'm <span style="font-size: 40px;" class="hero-title"> Shahar_Yar</span> - a Creative Developer
+          <h2>Hi, I'm <span style="font-size: 40px;" class="hero-title"> Shahar_Yar </span> - a Creative
+            Developer
           </h2>
-          <h1 class="hero-title">Creative <span class="typed"
-              data-typed-items="HTML, CSS, JavaScript, Bootstrap, AJAX,PHP, Laravel,REST APIs,MySQL"></span></h1>
-          <p class="lead" style="text-align: justify; text-justify: inter-word; line-height: 1.7; max-width: 800px; margin: 0 auto;">
-  I am Shaharyar, a backend developer passionate about building efficient, scalable, and high-performance web applications.  
-  I specialize in designing robust server-side solutions and APIs, creating clean, maintainable code that powers innovative software.  
-  Committed to problem-solving and continuous learning, I deliver solutions that help businesses achieve their goals and bring ideas to life.
-</p>
+          <h1 class="hero-title"> Expertise: <span class="typed"></span></h1>
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                                // Single Typed.js instance for the element
+                                var typed = new Typed('.typed', {
+                                    strings: ["HTML", "CSS", "JavaScript", "Bootstrap", "AJAX", "PHP", "Laravel", "REST APIs",
+                                        "MySQL", "Database Mgmt"
+                                    ],
+                                    typeSpeed: 60,
+                                    backSpeed: 70,
+                                    loop: true,
+                                    showCursor: true,
+                                    cursorChar: '|'
+                                });
+
+                            });
+          </script>
+
+
+
+
+          <p class="lead" style="text-align: justify; text-justify: inter-word;  max-width: 800px;">
+            I am Shaharyar, a backend developer passionate about building efficient, scalable, and
+            high-performance web
+            applications.
+            I specialize in designing robust server-side solutions and APIs, creating clean, maintainable
+            code that
+            powers innovative software.
+            Committed to problem-solving and continuous learning, I deliver solutions that help businesses
+            achieve their
+            goals and bring ideas to life.
+          </p>
 
           </p>
           {{-- uay maray pass es main total-project complete: or us k shat years of experience hain. or happy client
@@ -48,31 +73,48 @@
           </div>
 
           <div class="social-links" data-aos="fade-up" data-aos-delay="400">
-            <a href="#"><i class="bi bi-github"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="https://github.com/shaharyar522" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/shaharyarkhan4511/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-facebook"></i>
+            </a>
+
           </div>
         </div>
       </div>
 
       <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-delay="200">
         <div class="image-container">
-          <div class="floating-elements">
-            <div class="floating-card card-1" data-aos="zoom-in" data-aos-delay="300">
-              <i class="bi bi-palette"></i>
-              <span>UI/UX Design</span>
-            </div>
-            <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="400">
-              <i class="bi bi-code-slash"></i>
-              <span>Development</span>
-            </div>
-            <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="500">
-              <i class="bi bi-lightning"></i>
-              <span>Creative Ideas</span>
-            </div>
-          </div>
+           <div class="floating-elements">
+                
+                <div class="floating-card card-1" data-aos="zoom-in" data-aos-delay="400">
+                  <i class="bi bi-code-slash"></i>
+                  <span>Backend Dev</span>
+                </div>
+                <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="500">
+  <i class="bi bi-lightning"></i>
+  <span>Performance Optimization</span>
+</div>
+
+                <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="300">
+  <i class="bi bi-database"></i>
+  <span>Database Mgmt</span>
+</div>
+
+               
+              </div>
+
+
           <img src="{{ asset('assets/img/profile/profile-square-1.webp') }}" alt="Portfolio Hero"
             class="img-fluid hero-main-image">
           <div class="image-overlay"></div>
@@ -113,8 +155,10 @@
         <div class="about-content">
           <div class="intro">
             <h2>Hi, I'm Brandon - a Creative Developer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique
-              senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi
+              tristique
+              senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
+              vitae,
               ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
           </div>
 
@@ -145,7 +189,8 @@
           <div class="journey-timeline" data-aos="fade-up" data-aos-delay="300">
             <div class="timeline-item">
               <div class="year">2019</div>
-              <div class="description">Graduated with B.A. in Digital Design from Creative University</div>
+              <div class="description">Graduated with B.A. in Digital Design from Creative University
+              </div>
             </div>
             <div class="timeline-item">
               <div class="year">2020</div>
@@ -153,7 +198,8 @@
             </div>
             <div class="timeline-item">
               <div class="year">2023</div>
-              <div class="description">Launched freelance career specializing in creative web solutions</div>
+              <div class="description">Launched freelance career specializing in creative web solutions
+              </div>
             </div>
           </div>
 
@@ -364,7 +410,8 @@
       <div class="col-lg-4">
         <div class="skills-summary" data-aos="fade-left" data-aos-delay="200">
           <h3>Professional Expertise</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+            labore et
             dolore magna aliqua. Ut enim ad minim veniam.</p>
 
           <div class="summary-stats">
@@ -436,7 +483,8 @@
         <div class="experience-section">
           <div class="section-header">
             <h2><i class="bi bi-briefcase"></i> Professional Journey</h2>
-            <p class="section-subtitle">Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+            <p class="section-subtitle">Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames
               ac turpis egestas vestibulum tortor quam.</p>
           </div>
 
@@ -450,7 +498,8 @@
                 <span class="duration">2022 - Present</span>
               </div>
               <div class="card-body">
-                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                  curae mauris
                   viverra veniam sit amet lacus cursus.</p>
                 <ul class="achievements">
                   <li>Managed cross-functional teams of 15+ professionals</li>
@@ -469,7 +518,8 @@
                 <span class="duration">2018 - 2022</span>
               </div>
               <div class="card-body">
-                <p>Donec quam felis ultricies nec pellentesque eu pretium quis sem nulla consequat massa quis enim
+                <p>Donec quam felis ultricies nec pellentesque eu pretium quis sem nulla consequat massa
+                  quis enim
                   donec pede justo fringilla vel.</p>
               </div>
             </div>
@@ -483,7 +533,8 @@
                 <span class="duration">2015 - 2018</span>
               </div>
               <div class="card-body">
-                <p>Nam quam nunc blandit vel luctus pulvinar hendrerit id lorem maecenas nec odio et ante tincidunt
+                <p>Nam quam nunc blandit vel luctus pulvinar hendrerit id lorem maecenas nec odio et
+                  ante tincidunt
                   tempus donec vitae sapien ut.</p>
               </div>
             </div>
@@ -495,7 +546,8 @@
         <div class="education-section">
           <div class="section-header">
             <h2><i class="bi bi-mortarboard"></i> Academic Excellence</h2>
-            <p class="section-subtitle">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
+            <p class="section-subtitle">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
+              commodo
               ligula eget dolor aenean massa.</p>
           </div>
 
@@ -510,7 +562,8 @@
                   <span class="year">2015 - 2017</span>
                 </div>
                 <h4 class="institution">Tempus University</h4>
-                <p>Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec quam
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus
+                  donec quam
                   felis ultricies nec.</p>
               </div>
             </div>
@@ -523,7 +576,8 @@
                   <span class="year">2011 - 2015</span>
                 </div>
                 <h4 class="institution">Rhoncus Institute of Technology</h4>
-                <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus elementum
+                <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus
+                  elementum
                   semper nisi aenean vulputate.</p>
               </div>
             </div>
@@ -536,7 +590,8 @@
                   <span class="year">2020</span>
                 </div>
                 <h4 class="institution">Ligula Academy</h4>
-                <p>Etiam sit amet orci eget eros faucibus tincidunt duis leo sed fringilla mauris sit amet nibh
+                <p>Etiam sit amet orci eget eros faucibus tincidunt duis leo sed fringilla mauris sit
+                  amet nibh
                   donec sodales sagittis magna.</p>
               </div>
             </div>
@@ -570,7 +625,8 @@
             <i class="bi bi-stack"></i>
           </div>
           <h3>Digital Solutions</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+            totam
             rem aperiam eaque ipsa.</p>
           <div class="card-links">
             <a href="#" class="link-item">
@@ -588,7 +644,8 @@
             <i class="bi bi-shield-check"></i>
           </div>
           <h3>Secure Systems</h3>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur
             excepteur sint occaecat cupidatat.</p>
           <div class="card-links">
             <a href="#" class="link-item">
@@ -606,7 +663,8 @@
             <i class="bi bi-graph-up"></i>
           </div>
           <h3>Growth Strategy</h3>
-          <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
+          <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur
             vel illum qui dolorem.</p>
           <div class="card-links">
             <a href="#" class="link-item">
@@ -624,7 +682,8 @@
             <i class="bi bi-cpu"></i>
           </div>
           <h3>AI Integration</h3>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+            magni
             dolores eos qui ratione.</p>
           <div class="card-links">
             <a href="#" class="link-item">
@@ -660,7 +719,8 @@
             <i class="bi bi-gear"></i>
           </div>
           <h3>Process Automation</h3>
-          <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+          <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+            maxime
             placeat facere possimus.</p>
           <div class="card-links">
             <a href="#" class="link-item">
@@ -812,7 +872,8 @@
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
                 </div>
-                <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
+                <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget
+                  consectetur sed,
                   convallis at tellus.</p>
                 <div class="critic-info">
                   <div class="critic-name">The New York Times</div>
@@ -829,7 +890,8 @@
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-half"></i>
                 </div>
-                <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero
+                <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem
+                  ut libero
                   malesuada feugiat.</p>
                 <div class="critic-info">
                   <div class="critic-name">Washington Post</div>
@@ -846,7 +908,8 @@
                   <i class="bi bi-star-fill"></i>
                   <i class="bi bi-star-fill"></i>
                 </div>
-                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor
+                  eget felis
                   porttitor volutpat.</p>
                 <div class="critic-info">
                   <div class="critic-name">The Guardian</div>
@@ -860,27 +923,28 @@
           <div class="swiper testimonials-slider init-swiper" data-aos="fade-up" data-aos-delay="400">
             <script type="application/json" class="swiper-config">
               {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                      "delay": 5000
-                    },
-                    "slidesPerView": 1,
-                    "spaceBetween": 30,
-                    "pagination": {
-                      "el": ".swiper-pagination",
-                      "type": "bullets",
-                      "clickable": true
-                    },
-                    "breakpoints": {
-                      "768": {
-                        "slidesPerView": 2
-                      },
-                      "992": {
-                        "slidesPerView": 3
-                      }
-                    }
-                  }
+                                "loop": true
+                                , "speed": 600
+                                , "autoplay": {
+                                    "delay": 5000
+                                }
+                                , "slidesPerView": 1
+                                , "spaceBetween": 30
+                                , "pagination": {
+                                    "el": ".swiper-pagination"
+                                    , "type": "bullets"
+                                    , "clickable": true
+                                }
+                                , "breakpoints": {
+                                    "768": {
+                                        "slidesPerView": 2
+                                    }
+                                    , "992": {
+                                        "slidesPerView": 3
+                                    }
+                                }
+                            }
+
             </script>
 
             <div class="swiper-wrapper">
@@ -894,7 +958,8 @@
                     <i class="bi bi-star-fill"></i>
                   </div>
                   <p>
-                    Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                    Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed
+                    sit amet dui.
                     Nulla quis lorem ut libero malesuada feugiat.
                   </p>
                   <div class="testimonial-profile">
@@ -918,7 +983,8 @@
                     <i class="bi bi-star-fill"></i>
                   </div>
                   <p>
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies
+                    ligula sed magna
                     dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus.
                   </p>
                   <div class="testimonial-profile">
@@ -942,7 +1008,8 @@
                     <i class="bi bi-star-half"></i>
                   </div>
                   <p>
-                    Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna
+                    Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies
+                    ligula sed magna
                     dictum porta. Donec sollicitudin molestie malesuada.
                   </p>
                   <div class="testimonial-profile">
@@ -966,7 +1033,8 @@
                     <i class="bi bi-star-fill"></i>
                   </div>
                   <p>
-                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui
+                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet
+                    quam id dui
                     posuere blandit. Lorem ipsum dolor sit amet, consectetur.
                   </p>
                   <div class="testimonial-profile">
@@ -1030,7 +1098,8 @@
           <div class="faq-item faq-active">
             <h3>Non consectetur a erat nam at lectus urna duis?</h3>
             <div class="faq-content">
-              <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+              <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                curabitur
                 gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
             </div>
             <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1039,9 +1108,12 @@
           <div class="faq-item">
             <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
             <div class="faq-content">
-              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
+                laoreet
+                id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
+                pellentesque
+                elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
             </div>
             <i class="faq-toggle bi bi-chevron-right"></i>
           </div><!-- End Faq item-->
@@ -1049,9 +1121,12 @@
           <div class="faq-item">
             <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
             <div class="faq-content">
-              <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
-                eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
+              <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                pulvinar
+                elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                pellentesque
+                eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu
+                facilisis
                 sed odio morbi quis</p>
             </div>
             <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1060,9 +1135,12 @@
           <div class="faq-item">
             <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
             <div class="faq-content">
-              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
+                laoreet
+                id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
+                pellentesque
+                elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
             </div>
             <i class="faq-toggle bi bi-chevron-right"></i>
           </div><!-- End Faq item-->
@@ -1070,8 +1148,10 @@
           <div class="faq-item">
             <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
             <div class="faq-content">
-              <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
-                Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
+              <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                ante in.
+                Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                bibendum est.
                 Purus gravida quis blandit turpis cursus in</p>
             </div>
             <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1080,7 +1160,8 @@
           <div class="faq-item">
             <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
             <div class="faq-content">
-              <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi.
+              <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in
+                suscipit sequi.
                 Distinctio ipsam dolore et.</p>
             </div>
             <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1111,7 +1192,8 @@
       <div class="col-lg-5">
         <div class="info-box" data-aos="fade-up" data-aos-delay="200">
           <h3>Contact Info</h3>
-          <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
+          <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum
+            primis.
           </p>
 
           <div class="info-item" data-aos="fade-up" data-aos-delay="300">
@@ -1152,7 +1234,8 @@
       <div class="col-lg-7">
         <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
           <h3>Get In Touch</h3>
-          <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.
+          <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum
+            primis.
           </p>
 
           <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
@@ -1194,5 +1277,4 @@
   </div>
 
 </section> <!-- /Contact Section -->
-
 @endsection

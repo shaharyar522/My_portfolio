@@ -477,7 +477,8 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 20px 0;
+
   overflow: clip;
 }
 
@@ -505,6 +506,7 @@ section,
   height: 1px;
   display: inline-block;
   background: var(--accent-color);
+  
   margin: 10px 10px;
 }
 
@@ -520,7 +522,8 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  padding: 120px 0;
+  margin-top: 20px;
+  padding: 100px 0;
   margin-top: -100px;
   position: relative;
   overflow: hidden;
