@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container">
+        <div class="row gy-4 isotope-container">
+
+          <!-- Portfolio Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" class="img-fluid" alt="" loading="lazy">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Marketing</div>
+                    <h3 class="entry-title">Brand Strategy</h3>
+                    <div class="entry-links">
+                      <a href="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" class="glightbox"
+                        data-gallery="portfolio-gallery-marketing"
+                        data-glightbox="title: Brand Strategy; description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.">
+                        <i class="bi bi-arrows-angle-expand"></i>
+                      </a>
+                      <a href="{{ route('project-details', ['slug' => 'elearning']) }}">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <!-- End Portfolio Item -->
+
+          <!-- Duplicate Portfolio Item -->
+          <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+            <article class="portfolio-entry">
+              <figure class="entry-image">
+                <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" class="img-fluid" alt="" loading="lazy">
+                <div class="entry-overlay">
+                  <div class="overlay-content">
+                    <div class="entry-meta">Marketing</div>
+                    <h3 class="entry-title">Brand Strategy</h3>
+                    <div class="entry-links">
+                      <a href="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" class="glightbox"
+                        data-gallery="portfolio-gallery-marketing"
+                        data-glightbox="title: Brand Strategy; description: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.">
+                        <i class="bi bi-arrows-angle-expand"></i>
+                      </a>
+                      <a href="{{ route('project-details', ['slug' => 'marketing']) }}">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </article>
+          </div>
+          <!-- End Portfolio Item -->
+
+        </div><!-- End Portfolio Container -->
+      </div>
+    </section>
+    <!-- /Portfolio Section -->
+
+    <!-- Testimonials Section -->
+    {{-- baqi testimonials, faq, contact sections ko ap jis tarah bheje thay, waisa hi rakho --}}
+    {{-- main unhein same hi rakhta hun, sirf asset() helper lagakar taake laravel path sahi chale --}}
+
+    <section id="testimonials" class="testimonials section">
+      <div class="container section-title">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      {{-- baqi testimonial code same as your HTML --}}
+    </section>
+
+    <section id="faq" class="faq section">
+      <div class="container section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      {{-- faq content --}}
+    </section>
+
+    <section id="contact" class="contact section light-background">
+      <div class="container section-title">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      {{-- contact content --}}
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Style</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#" class="github"><i class="bi bi-github"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
+  <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
+  <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ asset('assets/vendor/typed.js/typed.umd.js') }}"></script>
+  <script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
+  <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+
+  <!-- Main JS File -->
+  <script src="{{ asset('assets/js/main.js') }}"></script>
+
+</body>
+</html>
