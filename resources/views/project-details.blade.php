@@ -117,6 +117,7 @@
     </div><!-- End Page Title -->
 
     <!-- Portfolio Details Section -->
+    
     <section id="elearning" class="project-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -758,27 +759,6 @@
 
 
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      let hash = window.location.hash;
-
-      // sab hide karo
-      document.querySelectorAll(".portfolio-details.section").forEach(sec => {
-        sec.style.display = "none";
-      });
-
-      if (hash) {
-        let target = document.querySelector(hash);
-        if (target) {
-          target.style.display = "block"; // sirf required section show
-        }
-      } else {
-        // agar koi hash nahi hai to ek default section dikhao
-        let first = document.querySelector(".portfolio-details.section");
-        if (first) first.style.display = "block";
-      }
-    });
-  </script>
 
 {{-- uay maray pass proeject deaitla ian  --}}
 
