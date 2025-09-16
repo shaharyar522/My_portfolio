@@ -452,58 +452,59 @@
             <div class="experience-section">
               <div class="section-header">
                 <h2><i class="bi bi-briefcase"></i> Professional Journey</h2>
-                <p class="section-subtitle">Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-                  ac turpis egestas vestibulum tortor quam.</p>
+
               </div>
 
               <div class="experience-cards">
+
+                <!-- Technical Director -->
                 <div class="experience-card" data-aos="zoom-in" data-aos-delay="300">
                   <div class="card-header">
                     <div class="role-info">
-                      <h3>Technical Director</h3>
-                      <h4>Proin Corporation</h4>
+                      <h3>Back-end Developer</h3>
+                      <h4>Web Tech Fusion (Pvt) Ltd, Islamabad </h4>
                     </div>
-                    <span class="duration">2022 - Present</span>
+                    <span class="duration">Nov 2024 - Present</span>
                   </div>
                   <div class="card-body">
-                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris
-                      viverra veniam sit amet lacus cursus.</p>
+                    <p>Developing real-world web applications with PHP, Laravel (MVC), MySQL, and integrated frontend
+                      solutions.</p>
                     <ul class="achievements">
-                      <li>Managed cross-functional teams of 15+ professionals</li>
-                      <li>Implemented agile methodologies resulting in 40% efficiency gain</li>
-                      <li>Led digital transformation initiatives worth $2M+</li>
+                      <li>Developed secure, scalable web applications for real client projects using PHP, Laravel (MVC),
+                        and MySQL</li>
+                      <li>Built and integrated RESTful APIs, optimizing backend performance and database workflows</li>
+                      <li>Deployed and managed live client projects on cPanel, delivering complete, real-world solutions
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+
+                <!-- Front-end Developer -->
+                <div class="experience-card" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="card-header">
+                    <div class="role-info">
+                      <h3>Front-end Developer</h3>
+                      <h4>Enigmatix (Pvt) Ltd, Bahawalpur (Internship)</h4>
+                    </div>
+                    <span class="duration">May 2024 - July 2024</span>
+                  </div>
+                  <div class="card-body">
+                    <p>Designed and implemented modern, responsive interfaces for client projects.</p>
+                    <ul class="achievements">
+                      <li>Applied modern UI/UX practices to enhance user experience</li>
+                      <li>Built reusable frontend components for multiple projects</li>
+                      <li>Technologies: HTML5, CSS3, JavaScript, Bootstrap</li>
                     </ul>
                   </div>
                 </div>
 
-                <div class="experience-card" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="card-header">
-                    <div class="role-info">
-                      <h3>Senior Development Manager</h3>
-                      <h4>Consectetur Solutions Inc</h4>
-                    </div>
-                    <span class="duration">2018 - 2022</span>
-                  </div>
-                  <div class="card-body">
-                    <p>Donec quam felis ultricies nec pellentesque eu pretium quis sem nulla consequat massa quis enim
-                      donec pede justo fringilla vel.</p>
-                  </div>
-                </div>
+                <!-- Professional Experience Summary -->
 
-                <div class="experience-card" data-aos="zoom-in" data-aos-delay="500">
-                  <div class="card-header">
-                    <div class="role-info">
-                      <h3>Product Development Specialist</h3>
-                      <h4>Adipiscing Technologies</h4>
-                    </div>
-                    <span class="duration">2015 - 2018</span>
-                  </div>
-                  <div class="card-body">
-                    <p>Nam quam nunc blandit vel luctus pulvinar hendrerit id lorem maecenas nec odio et ante tincidunt
-                      tempus donec vitae sapien ut.</p>
-                  </div>
-                </div>
+
               </div>
+
+
             </div>
           </div>
           {{-- end Professional Journey --}}
@@ -513,8 +514,6 @@
             <div class="education-section">
               <div class="section-header">
                 <h2><i class="bi bi-mortarboard"></i> Academic Excellence</h2>
-                <p class="section-subtitle">Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
-                  ligula eget dolor aenean massa.</p>
               </div>
 
               <div class="education-timeline">
@@ -524,12 +523,10 @@
                   <div class="timeline-marker"></div>
                   <div class="education-content">
                     <div class="degree-header">
-                      <h3>Master of Computer Science</h3>
-                      <span class="year">2015 - 2017</span>
+                      <h3>Bachelor of Science in Computer Science (BSCS)</h3>
+                      <span class="year">2020 - 2024</span>
                     </div>
-                    <h4 class="institution">Tempus University</h4>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus donec quam
-                      felis ultricies nec.</p>
+                    <h4 class="institution">The Islamia University of Bahawalpur</h4>
                   </div>
                 </div>
 
@@ -537,12 +534,10 @@
                   <div class="timeline-marker"></div>
                   <div class="education-content">
                     <div class="degree-header">
-                      <h3>Bachelor of Information Technology</h3>
-                      <span class="year">2011 - 2015</span>
+                      <h3>Intermediate in Computer Science (ICS)</h3>
+                      <span class="year">2019</span>
                     </div>
-                    <h4 class="institution">Rhoncus Institute of Technology</h4>
-                    <p>Nullam dictum felis eu pede mollis pretium integer tincidunt cras dapibus vivamus elementum
-                      semper nisi aenean vulputate.</p>
+                    <h4 class="institution">Govt. Associate College, Sama Satta, Bahawalpur</h4>
                   </div>
                 </div>
 
@@ -550,17 +545,17 @@
                   <div class="timeline-marker"></div>
                   <div class="education-content">
                     <div class="degree-header">
-                      <h3>Certificate in Digital Innovation</h3>
-                      <span class="year">2020</span>
+                      <h3>Matriculation in Science with Computer</h3>
+                      <span class="year">2016</span>
                     </div>
-                    <h4 class="institution">Ligula Academy</h4>
-                    <p>Etiam sit amet orci eget eros faucibus tincidunt duis leo sed fringilla mauris sit amet nibh
-                      donec sodales sagittis magna.</p>
+                    <h4 class="institution">Government Boys High school Khanqah Sharif, Gohar shah Road</h4>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
+
           {{-- end Academic Excellence --}}
 
         </div>
@@ -575,7 +570,7 @@
       <!-- Section Title -->
       <div class="container section-title">
         <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Delivering professional web and software solutions tailored to businesses of all sizes.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -586,17 +581,11 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-stack"></i>
+                <i class="bi bi-code-slash"></i>
               </div>
-              <h3>Digital Solutions</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam
-                rem aperiam eaque ipsa.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Web Application Development</h3>
+              <p>Building secure, scalable, and high-performance websites and web applications using PHP, Laravel (MVC),
+                MySQL, and modern frontend technologies (HTML, CSS, JavaScript, Bootstrap).</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -604,17 +593,11 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-shield-check"></i>
+                <i class="bi bi-server"></i>
               </div>
-              <h3>Secure Systems</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-                excepteur sint occaecat cupidatat.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Backend & API Integration</h3>
+              <p>Designing robust server-side solutions, RESTful APIs, and database management for seamless business
+                operations and software integration.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -622,71 +605,50 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-graph-up"></i>
+                <i class="bi bi-shop"></i>
               </div>
-              <h3>Growth Strategy</h3>
-              <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
-                vel illum qui dolorem.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Small Business Solutions</h3>
+              <p>Developing custom software and web tools for small businesses, including e-commerce platforms,
+                inventory management, and client management systems.</p>
             </div>
           </div><!-- End Service Item -->
 
           <!-- Card 4 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-cpu"></i>
+                <i class="bi bi-journal-text"></i>
               </div>
-              <h3>AI Integration</h3>
-              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Business Software Solutions</h3>
+              <p>Developing real-world software like POS systems, inventory management, and client management tools to
+                help businesses streamline operations and improve efficiency.</p>
             </div>
           </div><!-- End Service Item -->
 
           <!-- Card 5 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-cloud-arrow-up"></i>
+                <i class="bi bi-display"></i>
               </div>
-              <h3>Cloud Services</h3>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                deleniti atque corrupti quos.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Frontend & UI/UX Design</h3>
+              <p>Creating responsive and intuitive user interfaces with modern frontend technologies, ensuring seamless
+                user experiences across devices.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+          <!-- End Service Item -->
 
           <!-- Card 6 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item">
               <div class="icon">
                 <i class="bi bi-gear"></i>
               </div>
-              <h3>Process Automation</h3>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-                placeat facere possimus.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Full-Stack Solutions</h3>
+              <p>Providing end-to-end development from backend to frontend, integrating databases, APIs, and interactive
+                UI for complete web and software solutions.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -695,6 +657,7 @@
       </div>
 
     </section><!-- /Services Section -->
+
 
     <!-- Portfolio Section -->
     <section id="projects" class="portfolio section">
@@ -1067,309 +1030,10 @@
 
     </section><!-- /Portfolio Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+    
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+ 
 
-        <div class="row">
-          <div class="col-12">
-            <div class="critic-reviews" data-aos="fade-up" data-aos-delay="300">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="critic-review">
-                    <div class="review-quote">"</div>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
-                      convallis at tellus.</p>
-                    <div class="critic-info">
-                      <div class="critic-name">The New York Times</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="critic-review">
-                    <div class="review-quote">"</div>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                    </div>
-                    <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero
-                      malesuada feugiat.</p>
-                    <div class="critic-info">
-                      <div class="critic-name">Washington Post</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="critic-review">
-                    <div class="review-quote">"</div>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                      porttitor volutpat.</p>
-                    <div class="critic-info">
-                      <div class="critic-name">The Guardian</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="testimonials-container">
-              <div class="swiper testimonials-slider init-swiper" data-aos="fade-up" data-aos-delay="400">
-                <script type="application/json" class="swiper-config">
-                  {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                      "delay": 5000
-                    },
-                    "slidesPerView": 1,
-                    "spaceBetween": 30,
-                    "pagination": {
-                      "el": ".swiper-pagination",
-                      "type": "bullets",
-                      "clickable": true
-                    },
-                    "breakpoints": {
-                      "768": {
-                        "slidesPerView": 2
-                      },
-                      "992": {
-                        "slidesPerView": 3
-                      }
-                    }
-                  }
-                </script>
-
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
-                        Nulla quis lorem ut libero malesuada feugiat.
-                      </p>
-                      <div class="testimonial-profile">
-                        <img src="assets/img/person/person-f-1.webp" alt="Reviewer" class="img-fluid rounded-circle">
-                        <div>
-                          <h3>Jane Smith</h3>
-                          <h4>Book Enthusiast</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Cras ultricies ligula sed magna
-                        dictum porta. Vestibulum ante ipsum primis in faucibus orci luctus.
-                      </p>
-                      <div class="testimonial-profile">
-                        <img src="assets/img/person/person-m-2.webp" alt="Reviewer" class="img-fluid rounded-circle">
-                        <div>
-                          <h3>Michael Johnson</h3>
-                          <h4>Sci-Fi Blogger</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-half"></i>
-                      </div>
-                      <p>
-                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna
-                        dictum porta. Donec sollicitudin molestie malesuada.
-                      </p>
-                      <div class="testimonial-profile">
-                        <img src="assets/img/person/person-f-3.webp" alt="Reviewer" class="img-fluid rounded-circle">
-                        <div>
-                          <h3>Emily Davis</h3>
-                          <h4>Book Club President</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui
-                        posuere blandit. Lorem ipsum dolor sit amet, consectetur.
-                      </p>
-                      <div class="testimonial-profile">
-                        <img src="assets/img/person/person-m-4.webp" alt="Reviewer" class="img-fluid rounded-circle">
-                        <div>
-                          <h3>Robert Wilson</h3>
-                          <h4>Literary Reviewer</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div><!-- End testimonial item -->
-
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12 text-center" data-aos="fade-up">
-            <div class="overall-rating">
-              <div class="rating-number">4.8</div>
-              <div class="rating-stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-half"></i>
-              </div>
-              <p>Based on 230+ reviews</p>
-              <div class="rating-platforms">
-                <span>Goodreads</span>
-                <span>Amazon</span>
-                <span>Barnes &amp; Noble</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Testimonials Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Frequently Asked Questions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row justify-content-center">
-
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="faq-container">
-
-              <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
-                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
-                    eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
-                    sed odio morbi quis</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
-                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
-                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
-                <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
-                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
-                    Purus gravida quis blandit turpis cursus in</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
-                <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi.
-                    Distinctio ipsam dolore et.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-            </div>
-
-          </div><!-- End Faq Column-->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Faq Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section light-background">
