@@ -242,16 +242,7 @@
 
 })();
 
-
-
-
-// uay project ka slug hum pass kr rahin hain takay main jb us par click hun tu wo propler name show hun jo ko 
-// view work and contact ka dalla hain
-
-
-
-
-  // Function to scroll and update URL
+ // Function to scroll and update URL
   function scrollToSection(buttonId, sectionId, slug) {
     document.getElementById(buttonId).addEventListener('click', function(e) {
       e.preventDefault(); // Prevent default anchor behavior
@@ -266,7 +257,7 @@
 
   // Apply to both buttons
   scrollToSection('view-projects', 'projects', '/My_Projects');
-  scrollToSection('get-contact-touch', 'contact', '/Contact');
+  scrollToSection('get-in-touch', 'contact', '/Contact');
 
   // Handle back/forward navigation
   window.addEventListener('popstate', function() {
@@ -283,3 +274,4 @@
 
 
 
+ 

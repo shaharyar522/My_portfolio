@@ -7,7 +7,7 @@
   <title>@yield('title', 'SHAHAR_YAR')</title>
   <meta name="description" content="@yield('description', '')">
   <meta name="keywords" content="@yield('keywords', '')">
-  
+
   <!-- Favicons -->
   <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
   <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
@@ -18,6 +18,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
+  <!-- Isotope -->
+
+
 
   <!-- Vendor CSS Files -->
   <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -25,13 +28,13 @@
   <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
   <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
   <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-  
+
   <!-- Main CSS File -->
   <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
-  
+
   <!-- Vite Assets -->
   @vite(['resources/css/app.css', 'resources/js/app.js'])
-  
+
   @stack('styles')
 </head>
 
@@ -60,28 +63,28 @@
         </a>
 
         <div class="social-links text-center">
-         <a href="https://github.com/shaharyar522" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/shaharyarkhan4511/" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-linkedin"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-instagram"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-twitter"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-facebook"></i>
-            </a>
+          <a href="https://github.com/shaharyar522" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/shaharyarkhan4511/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-facebook"></i>
+          </a>
         </div>
 
         <ul>
           <li><a href="{{ route('home') }}">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li><a  href="#projects" id="view-projects">Projects</a></li>
+          <li><a href="#projects" id="view-projects">Projects</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact" id="get-contact-touch">Contact</a></li>
         </ul>
@@ -97,24 +100,25 @@
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Shahar Yar</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Shahar Yar</strong> <span>All Rights Reserved</span>
+        </p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href="https://github.com/shaharyar522" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/shaharyarkhan4511/" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-linkedin"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-instagram"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-twitter"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="bi bi-facebook"></i>
-            </a>
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/shaharyarkhan4511/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -144,7 +148,9 @@
 
   <!-- Main JS File -->
   <script src="{{ asset('assets/js/main.js') }}"></script>
-  
+
+ 
+
   @stack('scripts')
 </body>
 
