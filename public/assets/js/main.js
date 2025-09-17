@@ -242,31 +242,27 @@
 
 })();
 
- // Function to scroll and update URL
-  function scrollToSection(buttonId, sectionId, slug) {
-    document.getElementById(buttonId).addEventListener('click', function(e) {
-      e.preventDefault(); // Prevent default anchor behavior
+// Function to scroll only (no slug)
+// Function to scroll only (no slug, no hash in URL)
+function scrollToSection(buttonId, sectionId) {
+  const button = document.getElementById(buttonId);
+  const section = document.getElementById(sectionId);
 
-      // Scroll smoothly to the section
-      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+  if (button && section) {
+    button.addEventListener('click', function (e) {
+      e.preventDefault(); // Stop default link behavior
 
-      // Update the URL slug without reloading
-      history.pushState(null, null, slug);
+      // Smooth scroll to section
+      section.scrollIntoView({ behavior: 'smooth' });
     });
   }
+}
 
-  // Apply to both buttons
-  scrollToSection('view-projects', 'projects', '/My_Projects');
-  scrollToSection('get-in-touch', 'contact', '/Contact');
+// Apply to both buttons
+scrollToSection('view-projects', 'projects');
+scrollToSection('get-in-touch', 'contact');
 
-  // Handle back/forward navigation
-  window.addEventListener('popstate', function() {
-    if (window.location.pathname === '/My_Projects') {
-      document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
-    } else if (window.location.pathname === '/Contact') {
-      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
-    }
-  });
+
 
 
 

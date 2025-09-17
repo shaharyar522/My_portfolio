@@ -8,8 +8,8 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -18,14 +18,15 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Style
@@ -100,6 +101,7 @@
     </div>
   </header>
 
+
   <main class="main">
 
     <!-- Page Title -->
@@ -127,37 +129,40 @@
                 <div class="portfolio-details-slider swiper init-swiper" data-aos="zoom-in">
                   <script type="application/json" class="swiper-config">
                     {
-                      "loop": true,
-                      "speed": 1000,
-                      "autoplay": {
-                        "delay": 6000
-                      },
-                      "effect": "creative",
-                      "creativeEffect": {
-                        "prev": {
-                          "shadow": true,
-                          "translate": [0, 0, -400]
-                        },
-                        "next": {
-                          "translate": ["100%", 0, 0]
-                        }
-                      },
-                      "slidesPerView": 1,
-                      "navigation": {
-                        "nextEl": ".swiper-button-next",
-                        "prevEl": ".swiper-button-prev"
-                      }
+                  "loop": true,
+                  "speed": 1000,
+                  "autoplay": {
+                    "delay": 6000
+                  },
+                  "effect": "creative",
+                  "creativeEffect": {
+                    "prev": {
+                      "shadow": true,
+                      "translate": [0, 0, -400]
+                    },
+                    "next": {
+                      "translate": ["100%", 0, 0]
                     }
+                  },
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
                   </script>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Image" class="img-fluid">
+                      <img src="{{ asset('assets/img/portfolio/portfolio-5.webp') }}" alt="Portfolio Image"
+                        class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-7.webp" alt="Portfolio Image" class="img-fluid">
+                      <img src="{{ asset('assets/img/portfolio/portfolio-7.webp') }}" alt="Portfolio Image"
+                        class="img-fluid">
                     </div>
                     <div class="swiper-slide">
-                      <img src="assets/img/portfolio/portfolio-8.webp" alt="Portfolio Image" class="img-fluid">
+                      <img src="{{ asset('assets/img/portfolio/portfolio-8.webp') }}" alt="Portfolio Image"
+                        class="img-fluid">
                     </div>
                   </div>
                   <div class="swiper-button-prev"></div>
@@ -168,16 +173,20 @@
               <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
                 <div class="row g-2 mt-3">
                   <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-4.webp" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="{{ asset('assets/img/portfolio/portfolio-4.webp') }}" alt="Gallery Image"
+                      class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-6.webp" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="{{ asset('assets/img/portfolio/portfolio-6.webp') }}" alt="Gallery Image"
+                      class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-11.webp" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="{{ asset('assets/img/portfolio/portfolio-11.webp') }}" alt="Gallery Image"
+                      class="img-fluid glightbox">
                   </div>
                   <div class="col-3">
-                    <img src="assets/img/portfolio/portfolio-12.webp" alt="Gallery Image" class="img-fluid glightbox">
+                    <img src="{{ asset('assets/img/portfolio/portfolio-12.webp') }}" alt="Gallery Image"
+                      class="img-fluid glightbox">
                   </div>
                 </div>
               </div>
@@ -193,6 +202,7 @@
           </div>
 
           <div class="col-lg-6" data-aos="fade-left">
+
             <div class="portfolio-details-content">
               <div class="project-meta">
                 <div class="badge-wrapper">
@@ -218,6 +228,7 @@
               </div>
 
               <div class="project-overview">
+
                 <p class="lead">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor
                   nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie.
@@ -311,6 +322,7 @@
       </div>
 
     </section><!-- /Portfolio Details Section -->
+    <!-- /Portfolio Details Section -->
 
     <section id="urban" class="portfolio-details section" style="display:none;">
 
@@ -711,37 +723,21 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>
-          © <span>{{ date('2025') }}</span>
-          <strong class="px-1 sitename">Shahar Yar</strong>
-          <span>All Rights Reserved</span>
-        </p>
-
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Style</strong> <span>All Rights Reserved</span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://github.com/shaharyar522" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/shaharyarkhan4511/" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-linkedin"></i>
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-instagram"></i>
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-twitter"></i>
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <i class="bi bi-facebook"></i>
-        </a>
-
+        <a href="#" class="github"><i class="bi bi-github"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">Shahar_Yar</a>
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 
@@ -752,47 +748,52 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
+  <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
+  <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ asset('assets/vendor/typed.js/typed.umd.js') }}"></script>
+  <script src="{{ asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
+  <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+
+
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="{{ asset('assets/js/main.js') }}"></script>
 
 
- <script>
-document.addEventListener("DOMContentLoaded", function () {
-    // Get last part of the URL
-    let pathParts = window.location.pathname.split('/');
-    let projectId = pathParts[pathParts.length - 1]; // elearning, fullstack, etc.
 
-    // Hide all sections first
-    document.querySelectorAll(".portfolio-details.section").forEach(sec => {
-        sec.style.display = "none";
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const projectLinks = document.querySelectorAll('.view-project');
+
+    projectLinks.forEach(link => {
+        link.addEventListener('click', e => {
+            e.preventDefault();
+            const slug = link.getAttribute('data-slug');
+
+            // Hide all sections
+            document.querySelectorAll('.portfolio-details.section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show the matching section
+            const target = document.querySelector(`.portfolio-details.section[data-slug="${slug}"]`);
+            if (target) {
+                target.style.display = 'block';
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
     });
-
-    // Show the matching section
-    let target = document.getElementById(projectId);
-    if (target) {
-        target.style.display = "block";
-        target.scrollIntoView({ behavior: "smooth" });
-    } else {
-        // If URL doesn't match, show the first section by default
-        let first = document.querySelector(".portfolio-details.section");
-        if (first) first.style.display = "block";
-    }
 });
-</script>
 
-
-
+  </script>
 
 </body>
 

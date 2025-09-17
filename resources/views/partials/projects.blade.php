@@ -3,7 +3,7 @@
 
     <!-- Section Title -->
     <div class="container section-title">
-       <h2>Projects</h2>
+        <h2>Projects</h2>
     </div><!-- End Section Title -->
 
     <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
@@ -33,11 +33,12 @@
                                         <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox"
                                             data-gallery="portfolio-gallery-ui"
                                             data-glightbox="title: Mobile Banking App; description: Praesent commodo cursus magna, vel scelerisque nisl consectetur.">
-                                            <i class="bi bi-arrows-angle-expand"></i>
-                                        </a>
-                                        <a href="/project-details/elearning">
-                                            <i class="bi bi-arrow-right"></i>
-                                        </a>
+
+                                            <a href="{{ route('project.details', ['id' => 'elearning']) }}">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +60,7 @@
                                             data-glightbox="title: E-Learning Platform; description: Nulla vitae elit libero, a pharetra augue mollis interdum.">
                                             <i class="bi bi-arrows-angle-expand"></i>
                                         </a>
-                                        <a href="portfolio-details.html#urban">
+                                        <a href="{{ route('project.details', ['id' => 'urban']) }}">
                                             <i class="bi bi-arrow-right"></i>
                                         </a>
                                     </div>

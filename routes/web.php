@@ -1,16 +1,23 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
+
+
 
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
 
-Route::get('/project-details/{slug?}', function ($slug = null) {
-    return view('project-details', ['slug' => $slug]);
-})->name('project-details');
+Route::get('/project-details/{id}', [ProjectController::class, 'show'])->name('project.details');
+
+
+
+
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -22,4 +29,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

@@ -101,7 +101,23 @@
       @yield('content')
   </main>
 
+<!-- Scripts -->
+<script>
+  function scrollToSection(buttonId, sectionId) {
+    const button = document.getElementById(buttonId);
+    if (button) {
+      button.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+      });
+    }
+  }
 
+  // Apply scroll behavior for multiple buttons
+  scrollToSection('about-view-projects', 'projects');
+  scrollToSection('hero-view-projects', 'projects');
+  scrollToSection('get-in-touch', 'contact');
+</script>
 
   <footer id="footer" class="footer dark-background">
 
